@@ -1,5 +1,8 @@
 <?php
 $hello = "Hello World";
+$firstNumber = 35;
+$lastNumber = 45;
+$sum = $firstNumber + $lastNumber;
 
 ?>
 <!DOCTYPE html>
@@ -11,5 +14,6 @@ $hello = "Hello World";
 </head>
 <body>
     <h1><?php echo "I want to say" . $hello;?></h1>
+    <h2><?php echo "The Sum of two numbers is:" .$sum;?></h2>
 </body>
 </html>
